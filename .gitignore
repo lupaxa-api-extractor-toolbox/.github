@@ -1,2 +1,22 @@
 # Ignore all macOS metadata files everywhere
 **/.DS_Store
+
+# Private Superpowers specs/plans (symlink into Lupaxa cursor-docs vault)
+cursor-docs
+
+# makefile-skills checkout
+.makefiles/
+
+# Superpowers local state
+.superpowers/
+
+# Build / docs / Python caches (kept even for docs-only repos)
+site/
+.venv/
+__pycache__/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
